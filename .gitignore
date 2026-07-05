@@ -1,0 +1,14 @@
+.aws/
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+*.tfvars
+*.tfvars.json
+!environments/*.tfvars.example
+
+.DS_Store
+.cursor/
+.venv-report/
+__pycache__/
+reports/~$*
+*.docx.lock

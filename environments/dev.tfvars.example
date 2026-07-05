@@ -1,0 +1,13 @@
+environment            = "dev"
+aws_region             = "us-east-1"
+project_name           = "s3-athena-qs-demo-dev"
+quicksight_username    = "YOUR-QUICKSIGHT-USERNAME"
+kaggle_data_path       = "./kaggleData"
+force_destroy          = true
+enable_s3_versioning   = true
+glue_worker_type       = "G.1X"
+glue_number_of_workers = 2
+
+tags = {
+  Owner = "your-name"
+}
