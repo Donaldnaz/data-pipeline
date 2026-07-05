@@ -1,6 +1,6 @@
-# Iran War Oil Shock 2026 — S3 → Glue → Athena → QuickSight Demo
+# Iran War Oil Shock 2026 — S3 → Glue → Athena → QuickSight
 
-A beginner-friendly demo that provisions a complete serverless analytics pipeline on AWS using Terraform — one command to deploy everything, one command to destroy it all.
+An architecture that provisions a complete serverless analytics pipeline on AWS using Terraform — one command to deploy everything, one command to destroy it all.
 
 **Dataset:** [Iran War Oil Shock 2026 | Brent & Gas Tracker](https://www.kaggle.com/datasets/alitaqishah/iran-war-oil-shock-2026-brent-and-gas-tracker)
 
@@ -32,6 +32,7 @@ kaggleData/ (3 CSV files — direct S3 upload)
   Amazon QuickSight
   (line chart, choropleth map, KPI cards, event annotations)
 ```
+<img width="3032" height="1953" alt="image" src="https://github.com/user-attachments/assets/8ab5c6b4-5007-4abc-9781-ffc0c99b1c3f" />
 
 ## Dataset Schema
 
